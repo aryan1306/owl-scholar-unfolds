@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
 import AcademicTree from '../components/AcademicTree';
 import ResearchGalaxy from '../components/ResearchGalaxy';
+import PhilanthropicWork from '../components/PhilanthropicWork';
 import TeachingPhilosophy from '../components/TeachingPhilosophy';
 import Contact from '../components/Contact';
 
@@ -41,6 +42,9 @@ const Index = () => {
       
       {/* Research Portfolio */}
       <ResearchGalaxy />
+      
+      {/* Philanthropic Work */}
+      <PhilanthropicWork />
       
       {/* Teaching Philosophy */}
       <TeachingPhilosophy />
